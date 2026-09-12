@@ -1,0 +1,14 @@
+metric,count,derivation,cross_check
+topics,97,len(topics.json) top-level keys; cross-checked = count of topics.json entries,97
+subtopics,540,stats.json 'subtopics' field; cross-checked by summing len(topic.subtopics) over topics.json,540
+paragraphs_total,23898,stats.json 'paragraphs' field; cross-checked by summing section.paragraphs over every section in every subtopic in topics.json,23898
+sections_total,3828,"count of section objects (e.g. '00 Status', '25 Recognition', 'S99 SEC Materials') across all subtopics in topics.json; stats.json has no direct section count",
+sec_s_sections,437,"count of section objects with is_sec=true (S-prefixed SEC sections, e.g. S99) across topics.json",
+sec_s_paragraphs,921,sum of section.paragraphs where is_sec=true across topics.json (SEC-sourced paragraphs reproduced in the Codification's 'S' Sections),
+glossary_terms,1287,stats.json 'glossary' field; cross-checked by len(glossary.json),1287
+concepts,3285,stats.json 'concepts' field (cross-reference / defined-concept index entries),
+categories,29,stats.json 'categories' field; cross-checked by len(categories.json),29
+accounting_standards_updates,310,stats.json 'updates' field (count of FASB Accounting Standards Update documents indexed); cross-checked by len(updates.json),310
+enriched_subtopics,531,stats.json 'enriched_subtopics' field (subtopics with added navigational/summary enrichment),
+figures,1289,stats.json 'figures' field (embedded figures/tables in Codification text),
+areas,9,"len(areas.json) (top-level Codification Areas, e.g. General Principles, Presentation, Assets ... Industry, Broad Transactions)",
