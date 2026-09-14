@@ -1,6 +1,6 @@
 # Closing the GAAP
 
-Michael J. Bommarito II · Working paper · Research cutoff: September 12, 2026
+Michael J. Bommarito II · Working paper · Research cutoff: September 13, 2026
 
 [Read the paper (PDF)](publication/closing-the-gaap.pdf) ·
 [Download the narrated body (MP3)](https://media.githubusercontent.com/media/mjbommar/closing-the-gaap/main/publication/audio/closing-the-gaap-body-charon.mp3)
